@@ -1,0 +1,6 @@
+p1 = float(input('Digite o primeiro produto:  '))
+p2 = float(input('Digite o segundo produto:  '))
+p3 = float(input('Digite o terceiro produto:  '))
+d = float(input ('Digite a quantidade de Reais:  '))
+t = d - (p1 + p2 + p3)
+print ('Seu troco é:  ', t)
